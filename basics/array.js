@@ -16,8 +16,17 @@ console.log(myArr[2]);
 // console.log(myArr.includes(9));
 
 
-console.log(myArr.slice(1,3));
-console.log(myArr);
+// console.log(myArr.slice(1,3));
+// console.log(myArr);
 
-console.log(myArr.splice(1,3));
-console.log(myArr);
+// console.log(myArr.splice(1,3));
+// console.log(myArr);
+
+
+// const marvel=["ironman","captain america","hulk"]
+// const dc=["superman","flash","batman"]
+
+// console.log(marvel.concat(...dc));
+
+const anoarr=[2,3,5,6,4,[3,4,3,[3,3,32]]]
+console.log(anoarr.flat(Infinity));
